@@ -1,0 +1,184 @@
+@media (max-width: 575.98px){
+    /* index page media query */
+
+    .header_area{
+        display: none;
+    }
+    header .logo img {
+        width: 60%;
+    }
+    header .accoutn_image {
+        width: 60px;
+        height: 60px;
+        margin: 0px 10px;
+    }
+    header .brand_area .back_icon a, header .action_area .action_icon a, header .action_area .setting a {
+       
+        font-size: 16px;
+    }
+    .form_section .form_inner {
+        height: 50vh;
+    }
+    .form_section {
+        height: 50vh;
+    }
+    /* kundenreport page media query */
+    .my_mixitup {
+        margin: 0 0px;
+    }
+    .mix_btn .common_btn {
+        padding: 5px 21px;
+        margin-bottom: 5px;
+    }
+    .my_mixitup p {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    .common_shadow_grp h3 {
+        margin: 15px 0;
+        font-size: 14px;
+    }
+    .sub_one {
+        padding-bottom: 50px;
+    }
+    .sub_btn_grp .sub_btn .btn-primary {
+        padding: 15px 20px;
+    }
+    .common_btn {
+        font-size: 10px;
+    }
+    .sub_different h2 {
+        font-size: 18px;
+    }
+    .sub_different .btn {
+        padding: 5px 25px;
+        margin-top: 50px;
+    }
+    /* menuall page media query start */
+    .scaner_part {
+        margin-top: 50px;
+    }
+    .link_inner {
+        padding: 20px 0;
+    }
+    /* ubersicht page media query start */
+    .my_h3 {
+        font-size: 16px;
+    }
+    .form_item .file_icon {
+        padding: 5px;
+    }
+    .form_item .file_icon .notification_badge {
+        top: -5px;
+        right: -5px;
+        width: 10px;
+        height: 10px;
+    }
+    .form_item {
+        border-left: 0px solid #d4d4d4;
+    }
+    .login_form {
+        width: auto;
+    }
+    .login_inner .input_grp a {
+        right: 29px;
+    }
+
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    /* index page media query */
+    header .col-md-4{
+        width: 33%;
+    }
+    .header_area .common_heading{
+        font-size: 20px;
+    }
+    header .logo img {
+        width: 60%;
+    }
+    header .accoutn_image {
+        width: 60px;
+        height: 60px;
+        margin: 0px 10px;
+    }
+    header .brand_area .back_icon a, header .action_area .action_icon a, header .action_area .setting a {
+       
+        font-size: 16px;
+    }
+    .form_section .form_inner {
+        height: 50vh;
+    }
+    .form_section {
+        height: 75vh;
+    }
+    /* kundenreport page media query */
+    .my_mixitup {
+        margin: 0 0px;
+    }
+    .mix_btn .common_btn {
+        padding: 5px 21px;
+        margin-bottom: 5px;
+    }
+    .my_mixitup p {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    .common_shadow_grp h3 {
+        margin: 15px 0;
+        font-size: 14px;
+    }
+    .sub_one {
+        padding-bottom: 50px;
+    }
+    .sub_btn_grp .sub_btn .btn-primary {
+        padding: 15px 20px;
+    }
+    .common_btn {
+        font-size: 10px;
+    }
+    .sub_different h2 {
+        font-size: 18px;
+    }
+    .sub_different .btn {
+        padding: 5px 25px;
+        margin-top: 50px;
+    }
+    /* menuall page media query start */
+    .scaner_part {
+        margin-top: 50px;
+    }
+    .link_inner {
+        padding: 20px 0;
+    }
+    /* ubersicht page media query start */
+    .my_h3 {
+        font-size: 16px;
+    }
+    .form_item .file_icon {
+        padding: 5px;
+    }
+    .form_item .file_icon .notification_badge {
+        top: -5px;
+        right: -5px;
+        width: 10px;
+        height: 10px;
+    }
+    .form_item {
+        border-left: 0px solid #d4d4d4;
+    }
+    .login_form {
+        width: auto;
+    }
+    .login_inner .input_grp a {
+        right: 29px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* menuall page media query start */
+    .common_heading {
+        font-size: 20px;
+    }
+    .input_grp input {
+        font-size: 12px;
+    }
+}

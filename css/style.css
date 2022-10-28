@@ -1,0 +1,710 @@
+/* google fonts roboto condensed */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn:focus {
+    box-shadow: 0px 0px 0px 0px #000;
+}
+
+input {
+    outline: 0;
+    box-shadow: none;
+}
+
+textarea:focus {
+    outline: 0;
+}
+
+input:focus {
+    box-shadow: 0px 0px 0px 0px red !important;
+    background: transparent;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.img_width {
+    width: 38px;
+    margin-top: 5px;
+}
+
+.screen_body {
+    height: 900px;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+}
+
+#common_body {
+    background: linear-gradient(300deg, #ebebeb, #fff);
+    padding: 50px 0;
+}
+
+.common_heading {
+    font-size: 29px;
+    font-weight: 300;
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.common_pera {
+    font-size: 23px;
+    font-weight: 400;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.my_h3 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #00A54F;
+    margin-top: 20px;
+}
+
+.mt_40 {
+    margin-top: 40px;
+}
+
+.bar_content {
+    font-size: 13px;
+    font-weight: 300;
+    color: #404041;
+    cursor: pointer;
+}
+
+.my_bar {
+    width: 52px;
+    height: 3px;
+    background: #707070;
+    border-radius: 30px;
+    margin-bottom: 3px;
+}
+
+.common_shadow_grp {
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: linear-gradient(70deg, #dfdfdf, transparent);
+    box-shadow: 1px 1px 5px 0px #7c7c7c;
+    border-radius: 5px;
+}
+
+.common_btn {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 300;
+    border-radius: 0;
+    background: #B3B5B8;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 24px 66px;
+    margin: 0px 12px;
+    transition: all linear .3s;
+}
+
+.common_btn:hover {
+    border-radius: 0;
+    border: 2px solid #00A54F;
+    background: #00A54F;
+}
+
+.bg_color {
+    background: #00A54F !important;
+}
+
+
+/* ==================== common css ends ================== */
+
+
+/* ==================== header css start ================== */
+header {
+    width: 100%;
+    background: #404041 !important;
+    height: 113px;
+}
+
+header .logo img {
+    width: 80%;
+    border-radius: 7px;
+}
+
+.flex_flow {
+    height: 113px;
+}
+
+
+header .accoutn_image {
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #fff;
+    margin: 0px 35px;
+    position: relative;
+    cursor: pointer;
+}
+
+header .accoutn_image img {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+}
+
+header .brand_area .back_icon a,
+header .action_area .action_icon a,
+header .action_area .setting a {
+    color: #fff;
+    font-size: 22px;
+}
+
+/* ==================== header css ends ================== */
+
+.form_section .form_inner {
+    padding-top: 240px;
+    padding-bottom: 105px;
+}
+
+.form_section .input_grp {
+    padding: 46px 50px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.form_section input {
+    background: transparent !important;
+}
+
+.form_inner input.placeholder {
+    text-align: center;
+}
+
+.emailField {
+    top: 50%;
+    right: 50%;
+    border: none;
+    font-size: 23px !important;
+    font-weight: 700 !important;
+    color: #9FA1A3 !important;
+    text-align: center;
+}
+
+.form_section .form_inner .form_btn {
+
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ==================== footer css start ================== */
+footer .bar_btn a i {
+    display: block;
+}
+
+footer .bar_btn {
+    text-align: center;
+    transition: all linear .4s;
+}
+
+footer .bar_btn .bar_grp:hover .my_bar {
+    background-color: #00A54F;
+}
+
+footer .bar_btn:hover .bar_content {
+    color: #00A54F;
+}
+
+footer .plus_btn a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid #707070;
+    border-radius: 50%;
+    color: #585858;
+    font-size: 22px;
+    transition: all linear .4s;
+}
+
+footer .plus_btn a:hover {
+    color: #00A54F;
+}
+
+footer {
+    padding: 40px 0;
+}
+
+/* ==================== footer css ends ================== */
+
+
+/* ===================
+    manuell page start
+ ============ */
+
+/* ===================multiple form css start ============ */
+
+
+.my_form label,
+.my_form .input_grp label {
+    font-size: 12px;
+    font-weight: 300;
+    color: #404041;
+}
+
+.my_form label {
+    margin-top: 15px;
+}
+
+.input_grp input {
+    border: none;
+    padding: 0;
+    outline: 0;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    background: transparent !important;
+}
+
+.my_form textarea {
+    resize: none !important;
+    width: 100%;
+    height: 100px;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background: linear-gradient(70deg, #dfdfdf, transparent);
+    box-shadow: 1px 1px 5px 0px #7c7c7c;
+    border: none;
+}
+
+.scaner_part {
+    text-align: center;
+}
+
+.scaner_part .scaner_icon {
+    margin-top: 15px;
+    width: 100%;
+    padding: 40px;
+    box-shadow: 0px 1px 5px 0px #696969;
+    background: #fff;
+}
+
+.scaner_part .scaner_icon img {
+    width: 100%;
+}
+
+.scaner_part .common_btn {
+    width: 100%;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.manuell_body {
+    padding-top: 2px !important;
+    padding-bottom: 17px !important;
+}
+
+.my_form .form_btn {
+    text-align: center;
+}
+
+/* ===================multiple form css end ============ */
+
+
+/* ===================
+    manuell page end
+ ============ */
+
+/* ===================
+    ubersicht page start
+ ============ */
+
+.form_item {
+    border-left: 2px solid #d4d4d4;
+}
+
+.form_item .main {
+    justify-content: space-around;
+}
+
+.form_item .file_icon {
+    padding: 10px;
+    border: 1px solid #7c7c7c;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+}
+
+.form_item .file_icon .notification_badge {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #00A54F;
+
+}
+
+.form_item .file_icon a .badge_icon {
+    font-size: 32px;
+    text-align: center;
+    color: #696969;
+    transition: all linear .3s;
+}
+
+.form_item .file_icon:hover .badge_icon {
+    color: #00A54F;
+}
+
+/* ===================
+    ubersicht page end
+ ============ */
+
+/* ===================
+    kundenreport page start
+ ============ */
+
+/* js feature */
+.sub_content_two {
+    display: none;
+}
+
+.sub_content_three {
+    display: none;
+}
+
+.sub_content_four {
+    display: none;
+}
+
+
+.mixitup_section {
+    text-align: center;
+}
+
+.mix_btn .common_btn {
+    color: #404041;
+    background: #B3B5B8;
+    padding: 15px 40px;
+}
+
+.mix_btn .common_btn:hover {
+    color: #ffffff;
+    background: #00A54F;
+}
+
+.main_btn .mixitup-control-active {
+    background: #00A54F;
+    border-color: #00A54F;
+    color: #fff;
+    outline: 0;
+}
+
+.my_mixitup {
+    margin: 0 100px;
+}
+
+.my_mixitup p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 300;
+    color: #404041;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.common_shadow_grp h3 {
+    color: #404041;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 50px 0;
+    margin-bottom: 0px;
+}
+
+.sub_one {
+    height: 410px;
+}
+
+.sub_one .common_btn {
+    margin: 10px 5px;
+}
+
+/*button:focus:not(:focus-visible)*/
+
+.sub_one .common_btn:focus {
+    background: #00A54F;
+    border-color: #00A54F;
+    color: #fff;
+}
+
+.sub_one .common_btn:active {
+    background: #00A54F !important;
+    border-color: #00A54F;
+    color: #fff;
+}
+
+.sub_different {
+    text-align: left;
+    padding: 20px 40px;
+    height: 410px;
+}
+
+.sub_different h2 {
+    color: #E3653C;
+    font-size: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-top: 25px;
+    margin-bottom: 12px;
+}
+
+.sub_different p {
+    color: #404041;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sub_different .btn {
+    background: #E3653C;
+    color: #fff;
+    border-color: #E3653C;
+    padding: 24px 66px;
+    border-radius: 0;
+    margin-top: 140px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.sub_btn_grp {
+    justify-content: space-between;
+    padding-top: 55px;
+    margin-left: 145px;
+}
+
+.main_btn .diff,
+.diff .btn-primary {
+    background: #404041 !important;
+    border-color: #404041 !important;
+    color: #fff !important;
+}
+
+.sub_btn_grp .sub_btn .btn-primary {
+    font-size: 19px;
+    font-weight: 500;
+    background: #B2B4B4;
+    color: #fff;
+    border-color: #B2B4B4;
+    padding: 20px 30px;
+}
+
+.sub_btn_grp .sub_btn .btn-primary:hover {
+    color: #ffffff;
+    background: #00A54F;
+}
+
+.sub_btn p {
+    margin-top: 10px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sub_btn a {
+    padding: 20px 60px !important;
+}
+
+.after_btn {
+    justify-content: space-between;
+    padding: 0 180px;
+}
+
+/* ===================
+    kundenreport page end
+ ============ */
+/* ===================
+    login page start
+ ============ */
+.login_form {
+    height: 550px;
+}
+
+.login_form {
+    width: 560px;
+    height: 687px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_inner .input_grp {
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #686C6D;
+}
+
+.login_inner .input_grp a {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: #686C6D;
+    border-radius: 50%;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.checkbox {
+    padding-top: 15px;
+    padding-left: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.checkbox label {
+    font-size: 12px;
+    font-weight: 300;
+    color: #404041;
+    margin-left: 10px;
+}
+
+.checkbox input {
+    width: 24px;
+    height: 24px;
+}
+
+.submit_btn {
+    width: 452px;
+    height: 68px;
+    background: #686C6D;
+    border: 2px solid #686C6D;
+    color: #fff;
+    margin: 60px auto;
+    text-align: center;
+    line-height: 68px;
+}
+
+.submit_btn:hover {
+    color: #fff;
+}
+
+.submit_btn:focus {
+    background: #686C6D;
+}
+
+/* ===================
+    login page end
+ ============ */
+
+/* ===================
+    handlungsanweisung page start
+ ============ */
+.mr_70 {
+    margin-right: 70px;
+}
+
+.mb_20 {
+    margin-bottom: 5px;
+}
+
+.form_details {
+    padding: 15px 25px;
+    background: linear-gradient(178deg, #75777A, #989B9D);
+    box-shadow: 1px 1px 5px 0px #7c7c7c;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.new_item {
+    border-left: 0px solid #d4d4d4;
+}
+
+.new_item .file_icon {
+    margin-bottom: 4px;
+}
+
+.mr_70 label {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.mb_20 input {
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    font-size: 23px;
+}
+
+.m_10 {
+    margin: 20px 0;
+}
+
+.m_10 input {
+    padding-bottom: 40px;
+}
+
+/* ===================
+    handlungsanweisung page end
+ ============ */
+
+/* ===================
+    upload page start
+ ============ */
+.ptb_100 {
+    padding: 100px 0;
+}
+
+.new_p {
+    font-size: 24px;
+    font-weight: 300;
+    color: #404041;
+    margin-bottom: 0;
+}
+
+.my_file {
+    position: relative;
+}
+
+.my_file span {
+    font-size: 23px;
+    font-weight: 500;
+    color: #9FA1A3;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.my_file .form-control[type=file]:not(:disabled):not([readonly]) {
+    opacity: 0;
+}
+
+/* ===================
+    upload page end
+ ============ */
